@@ -24,4 +24,6 @@ bash fluxflex_setup.sh
 bash fluxflex_rake.sh
 
 [deploy]
+ls -la .
+ls -la public
 bash fluxflex_deploy.sh

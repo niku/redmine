@@ -10,6 +10,9 @@ ENV['GEM_HOME'] = __user_home + "/.gem/ruby/1.9.1/"
 ENV['GEM_PATH'] = ENV['GEM_HOME']
 ENV['RAILS_ENV'] ||= 'production'
 
+require 'rack'
+require 'fcgi'
+
 require File.dirname(__FILE__) + '/../config/boot'
 require File.dirname(__FILE__) + '/../config/environment'
 
